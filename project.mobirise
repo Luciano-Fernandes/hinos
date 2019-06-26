@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Site-06-17_2202",
+    "name": "Hinos",
     "currentPage": "index.html",
     "theme": {
       "name": "lightamp",
@@ -34,8 +34,15 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.10.3",
     "siteFonts": [],
-    "uniqCompNum": 14,
-    "versionPublish": "4.10.3"
+    "uniqCompNum": 45,
+    "versionPublish": "4.10.3",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "gdpr": "",
+    "siteUrl": "undefined",
+    "сanonical-url": "",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -197,9 +204,11 @@
             }
           },
           "_name": "toggle1",
-          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 064&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Henry Jeffreys Zelley, escreveu a canção em 1899.<br></h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                    !retirei expanded em section\n                    \n                    <section >\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Exaltado Na Eterna Glória&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Cristo, exaltado em Tua glória,<br>Teu nome digno vamos louvar.<br>Celebraremos Tua memória:<br>O fiel Cordeiro que quis salvar.<br>Senhor Bendito, Divino Mestre,<br>Tudo entregaste pra abençoar;<br>Por tantas bênçãos que Tu nos deste,<br>Em Teu louvor queremos cantar.<br>2.Deus tão formoso e perfeito Homem,<br>Lá no Calvário foste morrer.<br>Oh! Quantas almas já hoje podem<br>Ter paz eterna e louvar Teu Ser.<br>Senhor Bendito, Divino Mestre,<br>Tudo entregaste pra abençoar;<br>Por tantas bênçãos que Tu nos deste,<br>Em Teu louvor queremos cantar.<br>3.Nós Te honramos, Ressuscitado!<br>Hoje no céu em radiante luz,<br>Até ouvirmos Teu doce brado<br>A nos chamar, bendito Jesus!<br>Senhor Bendito, Divino Mestre,<br>Tudo entregaste pra abençoar;<br>Por tantas bênçãos que Tu nos deste,<br>Em Teu louvor queremos cantar.</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rtHGOdeoFI",
-          "_anchor": "toggle1-2",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 001</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.7.8.7.D. - Austria (Abba, Father, We Approach Thee)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Aba, Pai, a Ti Chegamos&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Aba, Pai! A Ti chegamos, hoje, em nome de Jesus, <br>Deus e Pai a Ti chamamos, sendo filhos já da luz. <br>Dos delitos libertados, pelo sangue do Senhor; <br>Pelo Espírito ensinados, damos-Te real louvor.<br>2.Fomos como fugitivos, longe do paterno lar, <br>Mas, quais filhos redimidos, nos quiseste abençoar. <br>Por amor nos perdoaste, nos levaste para Ti; <br>Nos beijaste, nos sentaste à paterna mesa aqui.<br>3.Já por Tuas mãos vestidos com os trajes de favor, <br>Dentro em casa recolhidos desfrutamos Teu amor. <br>Redimidos e lavados, renascidos para Deus; <br>Restaurados, bem amados, feitos cidadãos dos céus.<br>4.Aba, aqui, nós Te adoramos, muito alegres por saber <br>Que por nós que em Cristo estamos, vão Teus anjos conhecer <br>Teu saber maravilhoso, Tua graça, Teu amor; <br>E movidos de alegria Te adorar com novo ardor.</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "toggle1-j",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rushnytNlZ",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
@@ -208,62 +217,18 @@
           "_params": {}
         },
         {
-          "_name": "soundcloud-2",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".mbr-overlay": {
-                "background-color": "@overlayColor",
-                "opacity": "@overlayOpacity"
-              }
-            },
-            ".link-menu": {
-              "padding": "0"
-            },
-            ".btn": {
-              "line-height": "1"
-            },
-            ".mbr-row > *": {
-              "margin-bottom": "1rem"
-            },
-            ".mbr-col-lg-6 > *": {
-              "@media (max-width: 992px)": {
-                "text-align": "center"
-              }
-            },
-            ".sound-block, amp-soundcloud": {
-              "height": "~\"@{scHeight}px\" !important"
-            },
-            ".mbr-iconfont": {
-              "color": "@iconsColor",
-              "font-size": "~\"@{iconsSize}rem\""
-            },
-            ".iconfont-wrapper": {
-              "margin": ".8rem",
-              "display": "inline-block",
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\""
-            },
-            ".social-text,.linksblock-text": {
-              "margin": "0 0 1rem 0.8rem"
-            }
-          },
-          "_customHTML": "<section class=\"soundcloud-2\" group=\"Media\" plugins=\"amp-main,amp-soundcloud\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t\n\t\t<input type=\"range\" inline title=\"Soundcloud Height\" name=\"scHeight\" min=\"100\" max=\"200\" step=\"50\" value=\"100\">\n\n\t\t<input type=\"color\" title=\"Soundcloud Color\" name=\"scColor\" value=\"#78bbfb\">\n\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\t\t\n\t\t<input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\" condition=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"2\" max=\"10\" step=\"0.5\" value=\"2.5\" condition=\"showIcons\">\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#78bbfb\" condition=\"showIcons\">\n\n\t\t<input type=\"text\" title=\"Track ID\" name=\"trackId\" value=\"637705926\">\n\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n\t\t<input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"bg.type!='color' && overlay\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container sound-block\">\n\t\t<amp-soundcloud class=\"mobirise-loader\" layout=\"fixed-height\" height=\"100\" data-trackid=\"637705926\" data-color=\"78bbfb\">\n\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t</amp-soundcloud>\n\t</div>\n\t<div class=\"container\" mbr-if=\"showIcons || showButtons\">\n\t\t<div class=\"mbr-row\">\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-left linkmenu\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white social-text\" mbr-if=\"showButtons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tAvailable on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tITUNES\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tAMAZON\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tGOOGLE PLAY\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-right\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white linksblock-text\" mbr-if=\"showIcons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tListen on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-soundcloud\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-spotify\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-amazon\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "soundcloud-2-3",
-          "_isUserblock": true,
-          "_sourceTheme": "soundamp",
-          "_cid": "rtHHEICi6w",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/001.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-r",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -354,7 +319,802 @@
             }
           },
           "_name": "toggle1",
-          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 009&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">O texto foi escrito por Thomas Kelly (1769-1855)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n                    <section >\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Ao Senhor Jesus Louvemos&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Ao Senhor Jesus louvemos<br>Porque tanto Lhe devemos,<br>O que somos, o que temos,<br>Só em Cristo está.<br>2.É Jesus Seu nome amado,<br>O Seu povo tem livrado,<br>O triunfo assegurado<br>Pelo Seu poder.<br>3.Confiemos neste Amigo!<br>Fiel, nos livra do perigo,<br>Nos é hoje um forte abrigo<br>E até o fim será.<br>4.E no dia esperado<br>Nós veremos o Amado,<br>Ao ouvirmos Seu chamado,<br>Doce voz de amor!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 002</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">7.6.7.6.D. - Aurelia (On That Same Night Lord Jesus)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Foi Nessa Noite Escura&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Foi nessa noite escura que Tu, Senhor Jesus,<br>Com Tu'alma já afligida prevendo Tua cruz,<br>Amando nos pediste: \"Fazei assim por Mim\";<br>De coração fervente Te recordamos sim.<br><br>2.Teu coração sofrendo - imensa foi a dor!<br>Bebeste por nós toda a taça de amargor,<br>Lá, quando no Calvário, Teu Deus Te abandonou;<br>Com gratidão lembramos que assim nos perdoou.<br><br>3.Imóvel, em tormento, estavas Tu ali,<br>\"As ondas e as vagas\" passando sobre Ti;<br>Tão infinita graça, amor em perfeição,<br>Com gozo e real tristeza, recorda o coração.<br><br>4.Já dentre os mortos, Cristo, ressuscitado estás!<br>Te vemos lá em glória, Autor de nossa paz;<br>Por graça em Ti aceitos, gozando filiação,<br>Lembramos Tua pena, amor e submissão.<br><br>5.Pois até que Tu venhas chamar-nos, ó Senhor!<br>Pra onde o dia brilha e eterno é o esplendor,<br>Queremos Tua morte aqui anunciar,<br>E a ela conformados, Teu nome recordar!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-m",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rushoJ32MH",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/002.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-u",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 003&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.8.8.5. - Melodia Alemã (Praise The Saviour)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                   \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Todos Juntos Adoremos&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Todos juntos, adoremos,<br>Ao Senhor, a Quem devemos<br>Tudo, tudo quanto temos,<br>Nosso Salvador!<br><br>2.Sejas, ó Senhor, louvado,<br>Tu que aqui foste humilhado,<br>E por nós crucificado,<br>Nosso Salvador!<br><br>3.Ó Jesus! Tu nos buscaste,<br>Com Teu sangue nos compraste,<br>Por amor, Tu nos ganhaste,<br>Nosso Salvador!<br><br>4.E a Ti, Pai, confessamos<br>Que outro nome não achamos,<br>Como o Filho a Quem honramos,<br>Nosso Salvador!<br><br>5.Tudo a Ele entregaste,<br>Tu, ó Pai, O exaltaste;<br>À direita O sentaste,<br>Nosso Salvador!<br><br>6.Toda graça n’Ele achamos,<br>Tudo quanto precisamos;<br>N’Ele sempre nos gloriamos,<br>Nosso Salvador!<br><br>7.Mais um pouco e O veremos,<br>Para os céus nós subiremos;<br>Sua glória, gozaremos,<br>Nosso Salvador</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "toggle1-n",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rushp5Y3H4",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/003.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-v",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 004</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">7.6.7.6.D. - Watcher (Jesus, Señor Amado)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Jesus, Senhor Amado!&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Jesus, Senhor amado! Formamos nós aqui,<br>Com todos os remidos, um mesmo corpo em Ti.<br>Guardando a unidade no vínculo da paz,<br>O Espírito nos une Contigo e gozo traz.<br><br>2.Que gozo nós chegarmos a Ti, Jesus Senhor,<br>E sermos dirigidos por Teu Consolador;<br>Teu Livro possuindo pra nos iluminar,<br>Podermos, reverentes, adoração Te dar.<br><br>3.Cercando a Tua ceia que nos puseste aqui,<br>Recordação tão santa Senhor Jesus, de Ti.<br>Da cruz até a glória, quão bom nos é seguir<br>Os passos gloriosos de Quem nos quis remir!<br>4.Louvamos, adoramos, de unido coração,<br><br>E alegres entoamos com viva gratidão,<br>As Tuas santas glórias, ó Cristo Salvador!<br>Cabeça que és da Igreja, manancial de amor!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-x",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rusAfKhi2v",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/004.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-12",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 005</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">7.6.7.6.D. - Missionary (Tu Santa Invitación)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Senhor, Hoje Lembrando</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Senhor, hoje lembrando com grato coração,<br>Tomamos Tua ceia com simples devoção;<br>Do pão, com reverência comemos, Salvador,<br>Lembrando de Teu corpo entregue por amor.<br><br>2.Mas antes de parti-lo, pensamos logo em Ti,<br>Que nós, embora muitos, somos \"um corpo\" aqui.<br>O vinho que tomamos, nos traz recordação<br>Do sangue derramado, que nos trouxe perdão.<br><br>3.Comemos e bebemos conscientes do valor<br>Da obra consumada, eterna em seu vigor;<br>Em Tal presença santa celebra o coração,<br>E até que Tu venhas, levar-nos à mansão.</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-y",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rusAgntXIp",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/005.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-13",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 006</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.7.8.7.6.7. - Geshem; Even Me (En Tu Cena Nos Juntamos)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Nesta Ceia Nos Juntamos</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Nesta ceia nos juntamos anunciando, ó Senhor,<br>Tua morte até que venhas, exaltando Teu amor.<br>Grande amor! Grande amor!<br>Exaltando Teu amor.<br><br>2.Redimidos já entramos, com mui gozo à comunhão.<br>Neste pão Te recordamos, Cristo, nossa salvação.<br>Salvação! Salvação!<br>Cristo, nossa Salvação.<br><br>3.Nesta taça confessamos que Teu sangue é eficaz,<br>Uma expiação perfeita que nos veio dar a paz.<br>Dar a paz! Dar a paz! <br>Que nos veio dar a paz.<br><br>4.Tua graça nos congrega nesta mesa com amor,<br>Em espírito cantamos sempre a Ti, ó Redentor!<br>Redentor! Redentor!<br>Sempre a Ti,ó Redentor!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-z",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rusAh55osC",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/006.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-14",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 007</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.7.8.7.8.7.D. - Ton-Y-Botel; Ebenezer; Estêvão (Oh The Deep, Deep Love of Jesus)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Quão Imensa Foi a Graça!</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Quão imensa foi a graça,<br>Ao morrerdes numa cruz;<br>Nós, outrora, tão errantes,<br>Em Ti, Cristo, vimos Luz!<br>Ó Cordeiro, de Deus Filho,<br>Te louvamos Salvador;<br>E sabemos que Teu brilho<br>Nos farás ver, em fulgor!<br>2.A sentença foi lançada<br>Em quem Deus quis entregar;<br>Sem detença, ao Calvário,<br>Tu subiste pra salvar.<br>Ó Cordeiro, de Deus Filho,<br>Te louvamos Salvador;<br>E sabemos que Teu brilho<br>Nos farás ver, em fulgor!<br>3.Em pecado foste feito,<br>Por nós, tão vis, lá na cruz;<br>O juízo recebeste,<br>Dando-nos a paz, Jesus.<br>Ó Cordeiro, de Deus Filho,<br>Te louvamos Salvador;<br>E sabemos que Teu brilho<br>Nos farás ver, em fulgor!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-10",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rusAiLjqjD",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/007.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-15",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 008</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">7.7.7.8. - Marah; Man of Sorrows (Hallelujah, What a Saviour!)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n           \n                  \n                    \n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Levantado Foi Jesus</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Levantado foi Jesus<br>Numa vergonhosa cruz,<br>Para nos dar Sua luz.<br>Aleluia! Glória a Cristo!<br><br>2.Como oferta de amor<br>Veio o justo Salvador,<br>Dar-nos vida em favor.<br>Aleluia! Glória a Cristo!<br><br>3.Cristo a redenção pagou,<br>\"Consumado está\", clamou;<br>Deus assim nos aceitou.<br>Aleluia! Glória a Cristo!<br>4.Oh! Que Homem de aflição,<br>Pois sofreu em devoção<br>Ao Pai, pura sujeição.<br>Aleluia! Glória a Cristo!<br><br>5.Como Homem de esplendor<br>Exaltado está o Senhor;<br>Digno de total louvor.<br>Aleluia! Glória a Cristo!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>\n  \n!retirei expanded em section linha 52",
+          "_anchor": "toggle1-11",
+          "_isUserblock": true,
+          "_sourceTheme": "lightamp",
+          "_cid": "rusAjJqf8F",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/008.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-16",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".mbr-overlay": {
+                "background-color": "@overlayColor",
+                "opacity": "@overlayOpacity"
+              }
+            },
+            "& when (@transparentBg)": {
+              "amp-accordion section": {
+                "background": "transparent !important",
+                "& > *": {
+                  "border": "none"
+                }
+              }
+            },
+            "& when not (@showIcons)": {
+              ".amp-iconfont": {
+                "display": "none !important"
+              }
+            },
+            "& when (@showTitle), (@showSubtitle)": {
+              ".mbr-row.text-row": {
+                "padding-bottom": "2rem",
+                "justify-content": "~\"@{textAlign}\""
+              }
+            },
+            ".mbr-row.toggle-row": {
+              "justify-content": "~\"@{togglesAlign}\""
+            },
+            ".mbr-section-subtitle": {
+              "color": "#a2a0a0",
+              "padding": "0",
+              "margin": "0"
+            },
+            ".section-text": {
+              "padding": "2rem",
+              "background": "@bodyBg",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              }
+            },
+            ".section-title": {
+              "padding": "1rem 2rem",
+              "background": "@headBg",
+              "border-color": "@borderColor",
+              "& when (@transparentBg)": {
+                "background": "transparent !important"
+              },
+              "&:focus": {
+                "outline": "none"
+              }
+            },
+            ".iconfont-wrapper": {
+              "position": "relative",
+              "margin-right": "1rem",
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\""
+            },
+            ".amp-iconfont": {
+              "font-size": "~\"@{iconsSize}rem !important\""
+            },
+            "amp-accordion section[expanded] .plus-sign": {
+              "display": "none"
+            },
+            "amp-accordion section:not([expanded]) .minus-sign": {
+              "display": "none"
+            },
+            "@media (max-width: 767px)": {
+              ".section-title, .mbr-text": {
+                "padding": "1rem",
+                "text-align": "left"
+              },
+              ".amp-iconfont": {
+                "padding-left": "1rem"
+              }
+            }
+          },
+          "_name": "toggle1",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 009&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.8.8.5. - Acclaim (Praise The Saviour)<br>O texto foi escrito por Thomas Kelly (1769-1855)</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Ao Senhor Jesus Louvemos&nbsp;</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Ao Senhor Jesus louvemos<br>Porque tanto Lhe devemos,<br>O que somos, o que temos,<br>Só em Cristo está.<br>2.É Jesus Seu nome amado,<br>O Seu povo tem livrado,<br>O triunfo assegurado<br>Pelo Seu poder.<br>3.Confiemos neste Amigo!<br>Fiel, nos livra do perigo,<br>Nos é hoje um forte abrigo<br>E até o fim será.<br>4.E no dia esperado<br>Nós veremos o Amado,<br>Ao ouvirmos Seu chamado,<br>Doce voz de amor!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "toggle1-8",
           "_isUserblock": true,
           "_sourceTheme": "lightamp",
@@ -367,62 +1127,18 @@
           "_params": {}
         },
         {
-          "_name": "soundcloud-2",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".mbr-overlay": {
-                "background-color": "@overlayColor",
-                "opacity": "@overlayOpacity"
-              }
-            },
-            ".link-menu": {
-              "padding": "0"
-            },
-            ".btn": {
-              "line-height": "1"
-            },
-            ".mbr-row > *": {
-              "margin-bottom": "1rem"
-            },
-            ".mbr-col-lg-6 > *": {
-              "@media (max-width: 992px)": {
-                "text-align": "center"
-              }
-            },
-            ".sound-block, amp-soundcloud": {
-              "height": "~\"@{scHeight}px\" !important"
-            },
-            ".mbr-iconfont": {
-              "color": "@iconsColor",
-              "font-size": "~\"@{iconsSize}rem\""
-            },
-            ".iconfont-wrapper": {
-              "margin": ".8rem",
-              "display": "inline-block",
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\""
-            },
-            ".social-text,.linksblock-text": {
-              "margin": "0 0 1rem 0.8rem"
-            }
-          },
-          "_customHTML": "<section class=\"soundcloud-2\" group=\"Media\" plugins=\"amp-main,amp-soundcloud\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t\n\t\t<input type=\"range\" inline title=\"Soundcloud Height\" name=\"scHeight\" min=\"100\" max=\"200\" step=\"50\" value=\"100\">\n\n\t\t<input type=\"color\" title=\"Soundcloud Color\" name=\"scColor\" value=\"#78bbfb\">\n\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\t\t\n\t\t<input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\" condition=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"2\" max=\"10\" step=\"0.5\" value=\"2.5\" condition=\"showIcons\">\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#78bbfb\" condition=\"showIcons\">\n\n\t\t<input type=\"text\" title=\"Track ID\" name=\"trackId\" value=\"637704126\">\n\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n\t\t<input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"bg.type!='color' && overlay\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container sound-block\">\n\t\t<amp-soundcloud class=\"mobirise-loader\" layout=\"fixed-height\" height=\"100\" data-trackid=\"637704126\" data-color=\"78bbfb\">\n\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t</amp-soundcloud>\n\t</div>\n\t<div class=\"container\" mbr-if=\"showIcons || showButtons\">\n\t\t<div class=\"mbr-row\">\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-left linkmenu\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white social-text\" mbr-if=\"showButtons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tAvailable on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tITUNES\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tAMAZON\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tGOOGLE PLAY\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-right\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white linksblock-text\" mbr-if=\"showIcons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tListen on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-soundcloud\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-spotify\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-amazon\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "soundcloud-2-a",
-          "_isUserblock": true,
-          "_sourceTheme": "soundamp",
-          "_cid": "rtHNDkcOTf",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/009.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-17",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -513,7 +1229,7 @@
             }
           },
           "_name": "toggle1",
-          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 010&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">Anne R. Cousin</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n                    <section >\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Substituição</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Que grande peso, ó Senhor,<br>Quiseste suportar;<br>O fardo imenso, ó Salvador,<br>Quiseste carregar<br>Ali na cruz, Senhor Jesus,<br>Em nosso vil lugar!<br>2.De morte, dor e amaridão,<br>O cálix tão atroz,<br>Que Tu bebeste à exaustão,<br>Vazio está pra nós.<br>Lá feito réu, na cruz cruel,<br>Teu Deus foi Teu algoz!<br>3.A Sua vara Deus alçou,<br>Te fez ali penar;<br>Sim, Ele a Ti desamparou,<br>Pois quis nos amparar.<br>Teu sangue, então, como expiação,<br>Deixaste derramar!<br>4.Da ira o temporal bramiu<br>Tão rijo, tão veloz;<br>E qual um raio em Ti caiu,<br>Passando sobre nós!<br>Em Teu louvor, Jesus Senhor,<br>Alçamos nossa voz!<br>5.Por nós quiseste aqui morrer,<br>A fim de nos salvar;<br>E Tua face vamos ver<br>Ali no santo lar.<br>Louvor, então, em perfeição,<br>Iremos entoar!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"toggle1 mbr-section\" group=\"Toggles & Accordions\" plugins=\"amp-main, amp-accordion\" mbr-class=\"{'mbr-fullscreen':fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\" condition=\"!fullScreen\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Text Align\" name=\"textAlign\" condition=\"showTitle || showSubtitle\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"range\" inline title=\"Toggles Count\" name=\"togglesCount\" min=\"1\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"2.8\" step=\"0.2\" value=\"1.4\" condition=\"showIcons\">\n        <select title=\"Toggles Align\" name=\"togglesAlign\">\n            <option value=\"flex-start\" selected>Left</option>\n            <option value=\"center\">Center</option>\n            <option value=\"flex-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Toggles BG Transparent\" name=\"transparentBg\" checked>\n        <input type=\"color\" title=\"Toggles Head BG Color\" name=\"headBg\" value=\"#ececec\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Body BG Color\" name=\"bodyBg\" value=\"#cecece\" condition=\"!transparentBg\">\n        <input type=\"color\" title=\"Toggles Border Color\" name=\"borderColor\" value=\"#a2a0a0\" condition=\"!transparentBg\">\n        \n        <fieldset type=\"background\" name=\"bg\">\n          <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n          <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ececec\" condition=\"bg.type!='color' && overlay\">\n        <input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"bg.type!='color' && overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"container align-left\">\n        <div class=\"mbr-row text-row\">\n            <div class=\"text-block mbr-col-sm-12 mbr-col-md-12 mbr-col-lg-10 mbr-col-xl-8\">\n                <h2 class=\"mbr-section-title mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Hino 010&nbsp;</h2>\n                <h3 class=\"mbr-section-subtitle mbr-fonts-style mbr-text\" mbr-theme-style=\"display-6\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">8.6.8.6.8.6. - Substitution (O Christ, What Burdens Bowed Thy Head)<br>Anne R. Cousin</h3>\n            </div>\n        </div>\n\n        <div class=\"mbr-row toggle-row\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8 mbr-col-xl-6 accordion-wrapper\">\n                <amp-accordion disable-session-states>\n                    <section>\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>&nbsp;Substituição</h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">1.Que grande peso, ó Senhor,<br>Quiseste suportar;<br>O fardo imenso, ó Salvador,<br>Quiseste carregar<br>Ali na cruz, Senhor Jesus,<br>Em nosso vil lugar!<br><br>2.De morte, dor e amaridão,<br>O cálix tão atroz,<br>Que Tu bebeste à exaustão,<br>Vazio está pra nós.<br>Lá feito réu, na cruz cruel,<br>Teu Deus foi Teu algoz!<br><br>3.A Sua vara Deus alçou,<br>Te fez ali penar;<br>Sim, Ele a Ti desamparou,<br>Pois quis nos amparar.<br>Teu sangue, então, como expiação,<br>Deixaste derramar!<br><br>4.Da ira o temporal bramiu<br>Tão rijo, tão veloz;<br>E qual um raio em Ti caiu,<br>Passando sobre nós!<br>Em Teu louvor, Jesus Senhor,<br>Alçamos nossa voz!<br><br>5.Por nós quiseste aqui morrer,<br>A fim de nos salvar;<br>E Tua face vamos ver<br>Ali no santo lar.<br>Louvor, então, em perfeição,<br>Iremos entoar!</p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 1\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 2\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 3\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 4\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 5\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 6\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum\n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n\n                    <section mbr-if=\"togglesCount > 7\">\n                        <h2 class=\"section-title mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".section-title\">\n                            <div class=\"iconfont-wrapper\">\n                                <span mbr-icon class=\"amp-iconfont fa-plus fa plus-sign\"></span>\n                                <span mbr-icon class=\"amp-iconfont fa-minus fa minus-sign\"></span>\n                            </div>\n                            Lorem Ipsum                            \n                        </h2>\n                        <p class=\"mbr-text section-text mbr-fonts-style mbr-light\" mbr-theme-style=\"display-7\" data-app-selector=\".section-text\">\n                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. At perspiciatis facilis deleniti alias quos eaque dicta ut hic, quaerat qui, dolor porro laborum iste perferendis sunt soluta quibusdam atque tempora.\n                        </p>\n                    </section>\n                </amp-accordion>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "toggle1-9",
           "_isUserblock": true,
           "_sourceTheme": "lightamp",
@@ -526,62 +1242,18 @@
           "_params": {}
         },
         {
-          "_name": "soundcloud-2",
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)",
-              ".mbr-overlay": {
-                "background-color": "@overlayColor",
-                "opacity": "@overlayOpacity"
-              }
-            },
-            ".link-menu": {
-              "padding": "0"
-            },
-            ".btn": {
-              "line-height": "1"
-            },
-            ".mbr-row > *": {
-              "margin-bottom": "1rem"
-            },
-            ".mbr-col-lg-6 > *": {
-              "@media (max-width: 992px)": {
-                "text-align": "center"
-              }
-            },
-            ".sound-block, amp-soundcloud": {
-              "height": "~\"@{scHeight}px\" !important"
-            },
-            ".mbr-iconfont": {
-              "color": "@iconsColor",
-              "font-size": "~\"@{iconsSize}rem\""
-            },
-            ".iconfont-wrapper": {
-              "margin": ".8rem",
-              "display": "inline-block",
-              "width": "~\"@{iconsSize}rem\"",
-              "height": "~\"@{iconsSize}rem\""
-            },
-            ".social-text,.linksblock-text": {
-              "margin": "0 0 1rem 0.8rem"
-            }
-          },
-          "_customHTML": "<section class=\"soundcloud-2\" group=\"Media\" plugins=\"amp-main,amp-soundcloud\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\t<mbr-parameters>\n\t\t<!-- Block parameters controls (Blue \"Gear\" panel) -->\n\t\t<input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n\n\t\t<input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t<input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n\t\t\n\t\t<input type=\"range\" inline title=\"Soundcloud Height\" name=\"scHeight\" min=\"100\" max=\"200\" step=\"50\" value=\"100\">\n\n\t\t<input type=\"color\" title=\"Soundcloud Color\" name=\"scColor\" value=\"#78bbfb\">\n\n\t\t<input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\t\t\n\t\t<input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"3\" step=\"1\" condition=\"showIcons\">\n\t\t<input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"2\" max=\"10\" step=\"0.5\" value=\"2.5\" condition=\"showIcons\">\n\t\t<input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#78bbfb\" condition=\"showIcons\">\n\n\t\t<input type=\"text\" title=\"Track ID\" name=\"trackId\" value=\"637704114\">\n\n\t\t<fieldset type=\"background\" name=\"bg\">\n\t\t\t<input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\">\n\t\t\t<input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n\t\t</fieldset>\n\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type!='color'\" checked>\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' && overlay\">\n\t\t<input type=\"range\" inline title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"bg.type!='color' && overlay\">\n\t\t<!-- End block parameters -->\n\t</mbr-parameters>\n\n\t<div class=\"container sound-block\">\n\t\t<amp-soundcloud class=\"mobirise-loader\" layout=\"fixed-height\" height=\"100\" data-trackid=\"637704114\" data-color=\"78bbfb\">\n\t\t\t<div placeholder class=\"placeholder\"></div>\n\t\t</amp-soundcloud>\n\t</div>\n\t<div class=\"container\" mbr-if=\"showIcons || showButtons\">\n\t\t<div class=\"mbr-row\">\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-left linkmenu\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white social-text\" mbr-if=\"showButtons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tAvailable on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\">\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tITUNES\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tAMAZON\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">\n\t\t\t\t\t\tGOOGLE PLAY\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<div class=\"mbr-col-lg-6 mbr-col-md-12 mbr-col-sm-12 align-right\">\n\t\t\t\t<p class=\"mbr-fonts-style mbr-text mbr-white linksblock-text\" mbr-if=\"showIcons\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n\t\t\t\t\tListen on:\n\t\t\t\t</p>\n\t\t\t\t<div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\" mbr-if=\"showIcons\">\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-soundcloud\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-spotify\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"http://mobirise.com\" target=\"_blank\">\n\t\t\t\t\t\t<div class=\"iconfont-wrapper\">\n\t\t\t\t\t\t\t<span mbr-icon class=\"mbr-iconfont iconsshake fa fa-amazon\"></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_anchor": "soundcloud-2-b",
-          "_isUserblock": true,
-          "_sourceTheme": "soundamp",
-          "_cid": "rtHNEqr8W3",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div>\n    <audio controls=\"\">\n    <source src=\"http://files.acervodigitalcristao.com.br/Audios/hino-cantado/010.mp3&#10;\" type=\"audio/mpeg\">\n  Your browser does not support the audio tag.\n    </audio>\n</div>\n<hr>",
+          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 5px 0;\n  color: #777;\n  text-align: left;\n  padding-left: 60px;   \n}\n\np {\n  font-size: 60px;\n  color: #777;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extesões"
+          ],
+          "_name": "pro.custom-html",
+          "_anchor": "custom-html-18",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": []
         },
         {
           "alias": false,
@@ -657,11 +1329,11 @@
           "_name": "footer2",
           "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global=\"\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        \n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1.5\" max=\"3.5\" step=\"0.1\" value=\"1\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#ffffff\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Items\" name=\"showItems\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Items Count\" name=\"itemsCount\" min=\"1\" max=\"8\" step=\"1\" value=\"3\" condition=\"showItems\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background6.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\" selected=\"\">\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked=\"\" condition=\"bg.type!='color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"bg.type!='color' &amp;&amp; overlay\">\n        <input type=\"range\" inline=\"\" title=\"Overlay Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"bg.type!='color' &amp;&amp; overlay\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\"></div>\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-white\" mbr-class=\"{'mbr-justify-content-center': !(showIcons &amp;&amp; showItems),\n                         'space-between': showIcons &amp;&amp; showItems}\">\n            <div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\" mbr-if=\"showIcons\">\n                <a href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" class=\"icon-wrap\" target=\"_blank\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-youtube fa\"></span>\n                </a>\n                <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" class=\"icon-wrap\" target=\"_blank\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-f fa\"></span>\n                </a>\n                <a href=\"https://plus.google.com/u/0/+Mobirise/posts\" class=\"icon-wrap\" target=\"_blank\">\n                    <span mbr-icon=\"\" class=\"amp-iconfont fa-google-plus fa\"></span>\n                </a>\n            </div>\n            <div class=\"items-wrap\" mbr-if=\"showItems\">\n                <ul class=\"items-list\" mbr-list=\"\" mbr-list-grow=\"itemsCount\">\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                        <a href=\"#\" class=\"text-white\">\n                            Home\n                        </a>\n                    </li>\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                        <a href=\"#\" class=\"text-white\">\n                            About\n                        </a>\n                    </li>\n                    <li mbr-text=\"\" class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-4\">\n                        <a href=\"#\" class=\"text-white\">\n                            Contact\n                        </a>\n                    </li>\n                </ul>\n            </div>\n        </div>\n    </div>\n</section>\n",
           "_cid": "rtHYS0uQmX",
+          "_anchor": "footer2-d",
           "_protectedParams": [],
           "_global": true,
           "_once": false,
-          "_params": {},
-          "_anchor": "footer2-d"
+          "_params": {}
         }
       ]
     }
